@@ -1,0 +1,111 @@
+body {
+	overflow-x: hidden;
+}
+#navbar-my  {
+	background-color: #1f76bd !important;
+	height: 15%;
+	/*border-bottom: 1px solid white;*/
+	position: absolute;
+}
+.navbar{
+	background-color: white ;
+}
+.form-control , .btn-success , .btn {
+	background-color: #115c9b;
+	color: white;
+	border: 1px solid white;
+}
+.btn-success:hover {
+	background-color:  #8195d8 ;
+}
+#links-color {
+    color: white;
+    font-size: 400%;
+}
+#links-color:hover {
+    color: white ;
+}
+.navbtn {
+	background-color: #1f76bd;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+.navbtn a{
+	text-decoration: none;
+	color: white
+}
+.navbtn:hover{
+	border-bottom: 2px solid #fff;
+
+}
+.navbtn:hover .links-nav{
+	color: white;	
+}
+
+#footer {
+	position: absolute;
+	background-color: #115c9b;
+	border-top: 1px solid white;
+	width: 100%;
+	top: 150%;
+	height: 50%;
+}
+.text {
+	color: white;
+	border-bottom: 1px solid white;
+}
+.small-text , .small-text>p>a {
+	color: white;
+	font-family: "Open sans", sans-serif;
+}
+.small-text>p{
+	border-bottom: 1px solid white;
+	text-decoration: none;
+}
+.small-text>p>a:hover{
+	text-decoration: none;
+}
+
+.footer{
+	margin-top: 30px;
+	background-color: #1f76bd;
+}
+.footer1 {
+	background-color: #1f76bd;
+}
+.footer-form {
+	width: 90%;
+}
+.form-group {
+	margin: 0;
+}
+.bottom-footer , .bottom-footer>div>a {
+	color: white;
+}
+input {
+	border:0px;
+}
+.main {
+	position: absolute;
+	top: 15%;
+	left: -2%;
+	width: 104%;
+	height: 55%;
+}
+.missions {
+	position: relative;
+	top: 70%;
+}
+.mission1 {
+	border:2px solid #1f76bd ;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.partners {
+	position: relative;
+	top: 75%;
+}
+.list-sponsors>li {
+	display: inline;
+}
