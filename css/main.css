@@ -109,3 +109,12 @@ input {
 .list-sponsors>li {
 	display: inline;
 }
+.logo {
+	position: absolute;
+	left: 0;
+	top: 10;
+	z-index:123456;
+	width: 70px;
+	height: 70px;
+
+}

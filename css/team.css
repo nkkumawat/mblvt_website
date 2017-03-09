@@ -122,3 +122,46 @@ input {
 .col0 {
 width: 3%;
 }
+
+
+.footer-form .form-group {
+  margin-bottom: 5px;
+}
+.footer-form .form-control {
+  background: #115c9b;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  resize: none;
+}
+.footer-form .btn-submit {
+  border-radius: 0;
+  background: #115c9b;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  -moz-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  -webkit-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+.footer-form .btn-submit:hover {
+  background: #fff;
+}
+.footer-form input:-moz-placeholder,
+.footer-form textarea:-moz-placeholder {
+  color: #fff;
+}
+.footer-form input::-moz-placeholder,
+.footer-form textarea::-moz-placeholder {
+  color: #fff;
+}
+.footer-form input:-ms-input-placeholder,
+.footer-form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+.footer-form input::-webkit-input-placeholder,
+.footer-form textarea::-webkit-input-placeholder {
+  color: #fff;
+}

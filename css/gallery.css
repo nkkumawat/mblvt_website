@@ -1,10 +1,6 @@
 body {
 	overflow-x: hidden;
 }
-@font-face {
-  font-family: "Kruti Dev 010";
-  src: url(kr.TTF) format("truetype");
-}
 #navbar-my  {
 	background-color: #1f76bd !important;
 	height: 15%;
@@ -18,9 +14,6 @@ body {
 	background-color: #115c9b;
 	color: white;
 	border: 1px solid white;
-}
-.form-group {
-	height: 1%;
 }
 .btn-success:hover {
 	background-color:  #8195d8 ;
@@ -55,7 +48,7 @@ body {
 	background-color: #115c9b;
 	border-top: 1px solid white;
 	width: 100%;
-	top: 350%;
+	top: 200%;
 	height: 50%;
 }
 .text {
@@ -95,44 +88,43 @@ input {
 }
 .main {
 	position: absolute;
-	top: 25%;
+	top: 15%;
 	left: -2%;
 	width: 104%;
-	height: 145%;
-	text-align:center;
-	/*overflow-y: scroll;*/
-	color: white;
-	font-family: "Kruti Dev 010",sans-serif;
-	font-size: 120%;
-}
-.main>h1 {
-	color: grey;
+	height: 55%;
 }
 .missions {
 	position: relative;
 	top: 70%;
-
 }
 .mission1 {
 	border:2px solid #1f76bd ;
 	border-radius: 5px;
 	cursor: pointer;
-	background-color: #115c9b;
-	color: white;
-	text-align: center;
-	background-color: #0076a3;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-    background-size: 100%;
-    background-image: -moz-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-    background-image: -webkit-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-    background-image: linear-gradient(160deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-    color: #fff;
 }
-.missions1>img{
-	margin: 0;
+.partners {
+	position: relative;
+	top: 75%;
+}
+.list-sponsors>li {
+	display: inline;
+}
+.logo {
+	position: absolute;
 	left: 0;
+	top: 10;
+	z-index:123456;
+	width: 70px;
+	height: 70px;
+
+}
+.imagesGallery {
+	cursor: pointer;
+	-webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
 }
 
-.col0 {
-width: 3%;
-}
+
+
+
+
